@@ -27,7 +27,7 @@ local tweenService = GetService.TweenService
 local ReplicatedStorage = GetService.ReplicatedStorage
 local http = GetService.HttpService
 local lighting = GetService.Lighting
-makefolder("puppywarereborn")
+makefolder("glxckcc")
 
 --// Start \\--
 local PuppySettings = {
@@ -145,11 +145,11 @@ local PuppyModule = {
     Instance = {}
 }
 
-local Window = libary:new({name = "Puppyware Reborn", accent = Color3.fromRGB(244, 95, 115), textsize = 13})
+local Window = libary:new({name = "glxck.cc", accent = Color3.fromRGB(244, 0, 0), textsize = 13})
 local AimingTab = Window:page({name = "Legit"})
-local RageTab = Window:page({name = "Rage"})
-local VisualTab = Window:page({name = "Visauls"})
-local MiscTab = Window:page({name = "Misc"})
+local RageTab = Window:page({name = "Blatan Niga"})
+local VisualTab = Window:page({name = "Visaul"})
+local MiscTab = Window:page({name = "Misc 👑"})
 
 local SAimSection = AimingTab:section({name = "Silent Aim", side = "left",size = 320})
 
@@ -164,7 +164,7 @@ local MiscCharSettings = MiscTab:section({name = "Character Cheats",side = "left
 local MiscNorSettings = MiscTab:section({name = "Normal Cheats",side = "left", size = 100})
 
 local ConfigSection = MiscTab:section({name = "Config",side = "right", size = 250})
-local ConfigLoader = ConfigSection:configloader({folder = "puppywarereborn"})
+local ConfigLoader = ConfigSection:configloader({folder = "glxckcc"})
 
 SAimSection:toggle({name = "Silent Aim Enabled", def = false, callback = function(Boolean)
     PuppySettings.SilentAim.Enabled = Boolean
